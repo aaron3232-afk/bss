@@ -695,11 +695,11 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacityMultiplier*=2
-                stats.bluePollen*=1.6
+                stats.capacityMultiplier*=10000000000000000000000000000000000000000000000000000000000
+                stats.bluePollen*=1000000
                 stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,0.2)
-                stats.bubblePollen*=2
-                stats.defense+=0.3
+                stats.bubblePollen*=200000
+                stats.defense+=1000000000000
                 stats.redBeeAbilityRate*=1.15
                 stats.blueBeeAbilityRate*=1.15
                 stats.whiteBeeAbilityRate*=1.15
@@ -707,7 +707,7 @@ window.playerGear={
 
             },
             desc:'Harness the power of the sea to enhance your blue pollen gathering.<br><br>x2 capacity<br>x1.6 blue pollen<br>+20% instant blue conversion<br>x2 bubble pollen<br>x1.15 bee ability rate<br>+30% defense<br>+Passive: Bubble Bombs',
-            cost:['50000000 honey','30 blueExtract','15 oil','5 glue','300 blueberry'],
+            cost:['0 honey','0 blueExtract','0 oil','0 glue','0 blueberry'],
         },
         
         gummyMask:{
