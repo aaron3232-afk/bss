@@ -767,19 +767,19 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacityMultiplier*=3
-                stats.blueFieldCapacity*=1.75
-                stats.bluePollen*=1.5
-                stats.bluePollen*=1.35
-                stats.whitePollen*=1.35
-                stats.redPollen*=1.35
-                stats.convertRate*=2
-                stats.convertRateAtHive*=2
-                stats.bubblePollen*=2
+                stats.capacityMultiplier*=3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+                stats.blueFieldCapacity*=10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+                stats.bluePollen*=10000000000000000000
+                stats.bluePollen*=10000000000000000
+                stats.whitePollen*=10000000
+                stats.redPollen*=10000000
+                stats.convertRate*=20000
+                stats.convertRateAtHive*=2000000000000
+                stats.bubblePollen*=2000000000000000000
                 stats.redBeeAbilityRate*=1.2
-                stats.blueBeeAbilityRate*=1.2
+                stats.blueBeeAbilityRate*=12000000000000000000000
                 stats.whiteBeeAbilityRate*=1.2
-                stats.defense+=0.35
+                stats.defense+=1000000000000000000000000000
                 player.addEffect('diamondDrainPassive')
                 player.addEffect('bubbleBombsPassive')
             },
@@ -818,7 +818,7 @@ window.playerGear={
                 player.addEffect('ignitePassive')
             },
             desc:'Embrace hate to take on the form of a Demon Bee. Become both extremely unpleasant and powerful.<br><br>x2 capacity<br>x1.75 red field capacity<br>x1.75 red pollen<br>+50% instant flame conversion<br>x2 flame pollen<br>x1.25 bee attack<br>+35% defense<br>+20% bee ability rate<br>+Passive: X Flame<br>+Passive: Ignite',
-            cost:['5000000000 honey','350 stinger','250 redExtract','100 enzymes','75 glue'],
+            cost:['0 honey','0 stinger','0 redExtract','0 enzymes','0 glue'],
         },
     },
     
@@ -932,18 +932,18 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=300000
-                stats.capacityMultiplier*=2
-                stats.lootLuck*=2
-                stats.convertRate*=1.8
-                stats.honeyFromTokens*=1.5
-                stats.whiteBeeAttack+=2
-                stats.whiteBombPollen*=1.5
-                stats.beeEnergy*=1.25
+                stats.capacity+=300000000000000000000000000
+                stats.capacityMultiplier*=20000000000000000000000
+                stats.lootLuck*=200000000000000000000000
+                stats.convertRate*=1000000000000000000
+                stats.honeyFromTokens*=100000
+                stats.whiteBeeAttack+=2000000
+                stats.whiteBombPollen*=1500000
+                stats.beeEnergy*=1000000000
                 player.addEffect('petalStormPassive')
             },
             desc:'Drape these petals about your waist to harness unlimited flower power.<br><br>+300,000 capacity<br>x2 capacity<br>x2 loot luck<br>x1.8 convert rate<br>x1.5 honey from tokens<br>+2 white bee attack<br>x1.5 white bomb pollen<br>x1.25 bee energy<br>+Passive: Petal Storm',
-            cost:['15000000000 honey','15 starJelly','50 glitter','75 glue','1 spiritPetal'],
+            cost:['0 honey','0 starJelly','0 glitter','0 glue','0 spiritPetal'],
         }
     },
     
